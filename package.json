@@ -1,0 +1,29 @@
+{
+  "name": "wair",
+  "version": "1.0.0",
+  "description": "The wair command is roughly equivalent to the UNIX 'which' command but in Javascript.",
+  "main": "src/wair.js",
+  "scripts": {
+    "prepublish": "npm ls && npm test",
+    "test": "npm run lint && tap --cov test",
+    "lint": "standard"
+  },
+  "bugs": {
+    "url": "https://github.com/Cryptix720/Wair/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^5.2.0",
+    "standard": "^14.3.1"
+  },
+  "engines": {
+    "node": ">=4.2"
+  },
+  "author": "Chris Pro",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Cryptix720/Wair.git"
+  }
+}
