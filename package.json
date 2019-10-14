@@ -4,8 +4,7 @@
   "description": "The wair command is roughly equivalent to the UNIX 'which' command but in Javascript.",
   "main": "src/wair.js",
   "scripts": {
-    "prepublish": "npm ls && npm test",
-    "test": "npm run lint && tap --cov test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Cryptix720/Wair/issues"
