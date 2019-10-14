@@ -9,23 +9,20 @@ The default operation of the path module varies based on the operating system on
 
 <dl>
   <dt>On Windows:</dt>
-  <dd>wair.basename('C:\\path\\example.html');
-// Returns: 'C:\\path\\example.html'
-wair.basename('C:\\path\\example.html');
-// Returns: 'example.html'</dd>
+  <dd>wair.basename('C:\\path\\example.html');</dd>
+<dd>// Returns: 'C:\\path\\example.html'</dd>
+<dd>wair.basename('C:\\path\\example.html');</dd>
+<dd>// Returns: 'example.html'</dd>
 
   <dt>On POSIX, UNIX and Windows:</dt>
-  <dd>wair.win32.basename('C:\\path\\example.html');
-// Returns: 'example.html'
-To achieve consistent results when working with POSIX file paths on any operating system, use wair.posix</dd>
+  <dd>wair.win32.basename('C:\\path\\example.html');</dd>
+<dd>// Returns: 'example.html'</dd>
+<dd>To achieve consistent results when working with POSIX file paths on any operating system, use wair.posix</dd>
 
   <dt>On POSIX, UNIX and Windows:</dt>
-  <dd>wair.posix.basename('/path/example.html');
-// Returns: 'example.html'</dd>
+  <dd>wair.posix.basename('/path/example.html');</dd>
+<dd>// Returns: 'example.html'</dd>
 </dl>
-
-
-
 
 
 ___
