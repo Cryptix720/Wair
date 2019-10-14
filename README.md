@@ -31,7 +31,7 @@ wair.posix.basename('/path/example.html');
 ## API Wair C9
 WairCalls:
 
-'''js
+```javascript
 
 wair.parse(path)
 wair.toNamespacedPath(path)
@@ -40,10 +40,10 @@ wair.sep
 wair.relative(from, to)
 wair.resolve([...paths])
 
----
+
 The path.posix property provides access to POSIX specific implementations of the path methods.
 wair.posix
----
+
 
 wair.unix
 
