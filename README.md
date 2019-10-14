@@ -1,7 +1,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/Cryptix720/Wair/badge.svg?branch=master)](https://coveralls.io/github/Cryptix720/Wair?branch=master)
 [![Build Status](https://travis-ci.org/Cryptix720/Wair.svg?branch=master)](https://travis-ci.org/Cryptix720/Wair)
 [![npm version](https://badge.fury.io/js/wair.svg)](https://badge.fury.io/js/wair)
-[![wair img](https://github.com/Cryptix720/Wair/blob/master/wair.png)](https://github.com/Cryptix720/Wair/blob/master/wair.png)
+<center>
+<img src="https://github.com/Cryptix720/Wair/blob/master/wair.png">
+</center>
+
 
 # Wair 
 The Wair command is roughly equivalent to the UNIX 'which' command but in Javascript.
