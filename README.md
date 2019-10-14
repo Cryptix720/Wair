@@ -1,5 +1,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/Cryptix720/Wair/badge.svg?branch=master)](https://coveralls.io/github/Cryptix720/Wair?branch=master)
 [![Build Status](https://travis-ci.org/Cryptix720/Wair.svg?branch=master)](https://travis-ci.org/Cryptix720/Wair)
+[![npm version](https://badge.fury.io/js/wair.svg)](https://badge.fury.io/js/wair)
+[![img](https://github.com/Cryptix720/Wair/logo.png)
 
 # Wair 
 The Wair command is roughly equivalent to the UNIX 'which' command but in Javascript.
@@ -58,4 +60,3 @@ wair.posix
 The wair.unix property provides access to UNIX specific implementations of the path methods.
 wair.unix
 
-'''
