@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Cryptix720/Wair/badge.svg?branch=master)](https://coveralls.io/github/Cryptix720/Wair?branch=master)
+
 # Wair 
 The Wair command is roughly equivalent to the UNIX 'which' command but in Javascript.
 
