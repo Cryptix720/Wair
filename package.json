@@ -1,8 +1,16 @@
 {
   "name": "wair",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The wair command is roughly equivalent to the UNIX 'which' command but in Javascript.",
   "main": "src/wair.js",
+  "keywords": [
+    "javascript",
+    "wair",
+    "command",
+    "windows",
+    "ultrafast",
+    "algorithmic"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,14 +20,13 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^2.3.0",
-    "mocha": "^5.2.0",
-    "standard": "^14.3.1"
+    "mocha": "^5.2.0"
   },
   "engines": {
     "node": ">=4.2"
   },
   "author": "Chris Pro",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Cryptix720/Wair.git"
